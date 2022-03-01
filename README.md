@@ -1,6 +1,6 @@
 # Appeals
 
-Sistema de apelación de baneos permanentes del servidor de **VEGETTA777** [fork de Appeals](https://github.com/holasoyender/Appeals) usando **MongoDB**
+Sistema de apelación de baneos permanentes del servidor de **VEGETTA777** ([fork de Appeals](https://github.com/holasoyender/Appeals)) usando **MongoDB**
 Para cualquier pregunta/sugerencia siempre podéis abrir una **issue**
 Actualmente en producción en: https://appeals-lacabra.herokuapp.com/
 
