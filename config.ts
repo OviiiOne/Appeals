@@ -1,33 +1,33 @@
 export default {
     bot_status: {
         type: "WATCHING", // WATCHING, PLAYING, LISTENING, STREAMING
-        message: "lacabra.app" // Mensaje del estado del bot
+        message: "apelaciones del servidor" // Mensaje del estado del bot
     },
     img: {
-        main_icon: "https://cdn.discordapp.com/attachments/810800509719019532/889905025290240080/avatar.png", // Icono principal del sistema
-        banner: "https://cdn.discordapp.com/attachments/839400943517827092/948168647032053770/8372ead641f6bb38c98fa31b146e70b6.jpg", // Banner del la pagina principal
+        main_icon: "https://i.imgur.com/MgktaZW.gif", // Icono principal del sistema
+        banner: "https://i.imgur.com/3pH40wd.png", // Banner del la pagina principal
     },
     links: {
-        website: "https://lacabra.app", // Link del sitio web (el que sea)
+        website: "https://www.youtube.com/user/vegetta777", // Link del sitio web (el que sea)
     },
     emojis: {
-        ban: "771838918084657164", //Emoji del botón de banear (Solo la ID)
-        unban: "771838935730094090", //Emoji del botón de desbanear (Solo la ID)
+        ban: "745595906317090856", //Emoji del botón de banear (Solo la ID)
+        unban: "745595906140930070", //Emoji del botón de desbanear (Solo la ID)
 
         //Emojis de las votaciones
-        grey_left: "<:GRIS1:889925177754918972>", //Emoji gris de la izquierda
-        grey_right: "<:GRIS3:889925177733943346>", //Emoji gris de la derecha
-        grey_center: "<:GRIS2:889925177788485702>", //Emoji gris del centro
+        grey_left: "<:grey_left:948208305929592862>", //Emoji gris de la izquierda
+        grey_right: "<:grey_right:948208305883463710>", //Emoji gris de la derecha
+        grey_center: "<:grey_center:948208305866670120>", //Emoji gris del centro
 
-        green_left: "<:GREEN1:876413128223621180>", //Emoji verde de la izquierda
-        green_right: "<:GREEN3:876413128164933672>", //Emoji verde de la derecha
-        green_center: "<:GREEN2:876413127724523532>", //Emoji verde del centro
+        green_left: "<:green_left:948208306130927626>", //Emoji verde de la izquierda
+        green_right: "<:green_right:948208305958969454>", //Emoji verde de la derecha
+        green_center: "<:green_center:948208305661157407>", //Emoji verde del centro
 
-        red_left: "<:RED1:876414122714091532>", //Emoji rojo de la izquierda
-        red_right: "<:RED3:876414122860904518>", //Emoji rojo de la derecha
-        red_center: "<:RED2:876414122907025448>", //Emoji rojo del centro
+        red_left: "<:red_left:948208305900249138>", //Emoji rojo de la izquierda
+        red_right: "<:red_right:948208305862508550>", //Emoji rojo de la derecha
+        red_center: "<:red_center:948208305963163688>", //Emoji rojo del centro
     },
     wait_days: 30, // Días que el usuario debe de esperar para poder apelar
-    server_name: "LA CABRA", // Nombre del servidor
+    server_name: "VEGETTA777", // Nombre del servidor
     argument_vote: true, // Pedir al usuario que ha votado la razón de su voto
 }
