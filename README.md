@@ -20,9 +20,9 @@ URL de ejemplo: ```https://discord.com/api/oauth2/authorize?client_id=<ID-DEL-CL
 
 ## Comandos disponibles
 
- - `/appeal <Voto> <ID Apelación>`: Votar en una apelación con la ID
- - `/block <User>`: Bloquear a un usuario del servicio de apelaciones.
- - `/unblock <User>`: Desbloquear a un usuario del servicio de apelaciones.
+- `/appeal <Voto> <ID Apelación>`: Votar en una apelación con la ID
+- `/block <User>`: Bloquear a un usuario del servicio de apelaciones.
+- `/unblock <User>`: Desbloquear a un usuario del servicio de apelaciones.
 
 ## Ejemplo de arcivo .env
 ```
