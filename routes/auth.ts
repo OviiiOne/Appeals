@@ -14,10 +14,18 @@ import success from "./views/success";
 import {GuildBan} from "discord.js";
 import badDate from "./views/badDate";
 import config from "../config";
+import rateLimit from "express-rate-limit";
 
-router.get("/discord", passport.authenticate("discord"));
+const loginLimiter = rateLimit({
+    windowMs: 5 * 60 * 1000,
+    max: 5,
+    standardHeaders: true,
+    legacyHeaders: false,
+});
 
-router.get("/discord/redirect", async (req, res, next) => {
+router.get("/discord", loginLimiter, passport.authenticate("discord"));
+
+router.get("/discord/redirect", loginLimiter, async (req, res, next) => {
 
     try {
         passport.authenticate("discord", (err, user) => {
