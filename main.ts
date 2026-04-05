@@ -14,6 +14,8 @@ const Store = require("connect-mongo")
 const app = express();
 const PORT = process.env.PORT || 4001;
 
+app.set("trust proxy", 1);
+
 // @ts-ignore
 mongoose.connect(process.env.MONGODB_URL, {
     autoIndex: false,
@@ -24,6 +26,8 @@ app.use(session({
     secret: process.env.APP_SECRET || "holasoyender",
     cookie: {
         maxAge: 60000 * 60 * 24,
+        secure: process.env.NODE_ENV === "production",
+        httpOnly: true,
     },
     resave: false,
     saveUninitialized: false,
